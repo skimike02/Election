@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Consolidated Precincts</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>When the districts running on a particular election ballot are identical for 2-6 adjacent regular precincts, California Election Code 12241 allows for those precincts to be consolidated. In Sacramento County it is policy that the consolidated precinct will bear the lowest precinct number of the original regular precincts. Through the 2016 elections, consolidated precincts with 250 or more registered voters were assigned a polling place and designated &amp;quot;Polling Place&amp;quot; precincts. Consolidated precincts with less than 250 registered voters were designated &amp;quot;Mail Ballot&amp;quot; precincts. For every Polling Place Precinct there also existed a coextensive &amp;quot;Vote by Mail&amp;quot; precinct for the registered voters of that precinct who voted by mail. Since the 2018 elections, there is no longer a distinction between &amp;quot;Polling Place&amp;quot; precincts and &amp;quot;Mail Ballot&amp;quot; precincts. All Consolidated Precincts also have a corresponding and coextensive &amp;quot;Vote by Mail&amp;quot; precinct. Because the combination of contests on ballot is unique to a particular election, the set of consolidated precincts is unique to that particular election.Sacramento County Voter Registration and Elections</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Voter Registration Consolidated Precincts</gco:CharacterString>
+            </purpose>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Political</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Consolidated Precincts</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Political</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Consolidated Precincts</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>This work is licensed under a Creative Commons Attribution 4.0 International License</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+        </MD_DataIdentification>
+    </identificationInfo>
+</MD_Metadata>
