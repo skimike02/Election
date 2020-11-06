@@ -42,7 +42,7 @@ def get_geodatasource(gdf):
 
 def plot_map():
     source=get_geodatasource(merged)
-    tools = 'wheel_zoom,pan,reset'
+    tools = 'wheel_zoom,pan,reset,save'
     p = figure(
         title='Sacramento County Presidential Votes - Color by party, shading by voter density', tools=tools, plot_width=800,plot_height=800,
         x_axis_location=None, y_axis_location=None,
