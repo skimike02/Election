@@ -71,7 +71,7 @@ templateEnv = jinja2.Environment(loader=templateLoader)
 TEMPLATE_FILE = os.path.join(dir_path,"home.html")
 with open(TEMPLATE_FILE) as file_:
     template=jinja2.Template(file_.read())
-save(p,title='COVID19',template=template)
+save(p,title='Election',template=template)
 
 #results from https://results.saccounty.net/resultsSW.aspx?type=PRES&map=MPRC&shape=Nov2020
 #Precincts from https://data.saccounty.net/datasets/255dd4348bd045cea5c7c4ea949a5b4a_0

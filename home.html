@@ -17,6 +17,10 @@
         </script>
     </div>
     <title>{% block title %}{{ title | e if title else "Bokeh Plot" }}{% endblock %}</title>
+    <link rel="icon" 
+    type="image/png" 
+    href="https://michaelchamp.com/assets/logo.png">
+    <link rel="stylesheet" href="styles.css">
     {% block preamble %}{% endblock %}
     {% block resources %}
         {% block css_resources %}
@@ -39,10 +43,7 @@
         <li><a href="Election.html">Election</a></li>
         <li><a href="https://teslaconnect.michaelchamp.com">TeslaConnect</a></li>
       </ul> 
-      <link rel="icon" 
-          type="image/png" 
-          href="https://michaelchamp.com/assets/logo.png">
-     <link rel="stylesheet" href="styles.css">
+
      </div>
 </head>
 {% endblock %}
