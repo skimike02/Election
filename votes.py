@@ -14,11 +14,13 @@ import geopandas as gpd
 import os
 import config
 
-shapefile='C:/Users/Micha/Documents/GitHub/Votes/Precincts/Consolidated_Precincts_2020_11_GENERAL.shp'
+fileloc=config.fileloc
+
+shapefile='Precincts/Consolidated_Precincts_2020_11_GENERAL.shp'
 gdf = gpd.read_file(shapefile)[['VPrecinct','geometry','SHAPE_Area']]
 dir_path = os.path.dirname(os.path.abspath(__file__))
 
-df=pd.read_excel('C:/Users/Micha/Documents/GitHub/Votes/PRES_Results_Precinct.xlsx')
+df=pd.read_excel('PRES_Results_Precinct.xlsx')
 df.drop(df[df.Precinct=='TOTALS'].index,inplace=True)
 df.Precinct=df.Precinct.astype('int64')
 candidates=df.columns.to_list()
@@ -63,7 +65,7 @@ def plot_map():
 
 p=plot_map()
 
-output_file(config.fileloc+'Election.html')
+output_file(fileloc+'Election.html')
 templateLoader = jinja2.FileSystemLoader(searchpath="./")
 templateEnv = jinja2.Environment(loader=templateLoader)
 TEMPLATE_FILE = os.path.join(dir_path,"home.html")
