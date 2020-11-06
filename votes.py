@@ -42,7 +42,7 @@ def plot_map():
     source=get_geodatasource(merged)
     tools = 'wheel_zoom,pan,reset'
     p = figure(
-        title='Sacramento County Presedential Votes - Color by party, shading by voter density', tools=tools, plot_width=800,plot_height=800,
+        title='Sacramento County Presidential Votes - Color by party, shading by voter density', tools=tools, plot_width=800,plot_height=800,
         x_axis_location=None, y_axis_location=None,
         tooltips=[("Precinct", "@Precinct"),
                   ("Percent Trump", "@pctTrump{0.0%}"),
